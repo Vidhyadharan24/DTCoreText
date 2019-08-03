@@ -992,7 +992,7 @@ static BOOL _needsChineseFontCascadeFix = NO;
 
 - (void)setPointSize:(CGFloat)pointSize
 {
-	_pointSize = round(pointSize);
+	_pointSize = pointSize;
 }
 
 @synthesize fontFamily = _fontFamily;
